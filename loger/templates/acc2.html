@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>accueil</title>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='acc2.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='boot.css') }}"/>
+    </head>
+    <body style="background-color: rgba(33, 58, 33, 0.459);">
+        <div class="d1">
+        <h1 >POSTAIRE </h1>
+        <h4>bienvenue sur le site de poste de memo </h4>
+        </div>
+        <div class="conteiner" id="ju">
+            <button  class="btn btn-warning"><a href="/inscription">inscription</a></button>
+            <button class="btn btn-warning"><a href="/connexion">connexion</a></button>
+        </div>
+        <div class="conteiner" id="formu">
+        <form method="POST" >
+        <input  type="text" name="cit" id="in" placeholder="ajouter une memo"/>
+        <input type="submit" value=" envoyer"class="btn btn-primary"/>
+        </form>
+        </div>
+        <div class="row">
+        {% for mot in listo%}
+        <div id="li" class="span1">
+        <header>{{ mot }}</header> 
+        </div>
+        {%endfor%}
+        </div>
+        
+    </body>
+    <footer>
+        <p id="foo"> application web developer par toutpuissantged alias anonymous13 <a href="https://www.github.com/toutpuissantged"> lien github  </a> @coepyright tout droit reserver </p>
+    </footer>
+</html>
