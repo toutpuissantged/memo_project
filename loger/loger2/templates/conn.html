@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>page de connexion</title>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='acc2.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='boot.css') }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='insc.css') }}"/>
+    </head>
+    <body style="background-color: rgba(33, 58, 33, 0.459);">
+        <div class="d1">
+        <h1 >POSTAIRE </h1>
+        <h4> connecter vous a memo</h4>
+        </div>
+        <div id="formu">
+        <form  method="POST" action="/confirm2">
+            <table id="tab">
+            <tr><label id="inf"> entrer vos donne pour vous connecter</label></tr>
+            <p id="error">{{ err }}</p>
+            <tr>
+            <th><label>login</label></th>
+            <td><input type="text" name="name2"  /></td>
+            </tr>
+            <tr>
+            <th><label>password</label></th >
+            <td> <input type="password" name="password2"  /></td>
+            </tr>
+            <th></th><th><input type="submit" value="valider" class="btn btn-success" id="conf"/></th>
+            </table>
+        </form>
+ 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>page compte</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="static/l&g/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="static/l&g/css/form-elements.css">
+        <link rel="stylesheet" href="static/l&g/css/style.css">
+        <link rel="shortcut icon" href="static/l&g/ico/favicon.png">
+
+    </head>
+
+    <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	<div class="container">
+                	
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text">
+						<h1> POSTAIRE </h1>
+                        <h2> page de connexion  &amp; d'enregistrement </h2>
+                        <div class="description">
+                        	<p>
+	                         	
+                        	</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 show-forms">
+                    	<span class="show-register-form active">Creer Un Compte</span> 
+                    	<span class="show-forms-divider">/</span> 
+                    	<span class="show-login-form">Se Connecter</span>
+                    </div>
+                </div>
+                
+                <div class="row register-form">
+                    <div class="col-sm-4 col-sm-offset-1">
+						<form role="form" action="/confirm1" method="post" class="r-form">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="r-form-first-name">pseudonyme</label>
+	                        	<input type="text" name="ins-pseudo" placeholder="pseudonyme..." class="r-form-first-name form-control" id="r-form-first-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-last-name">mot de passe </label>
+	                        	<input type="password" name="ins-pass" placeholder="mot de passe..." class="r-form-last-name form-control" id="r-form-last-name">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="r-form-email">Email</label>
+	                        	<input type="text" name="ins-email" placeholder="Email..." class="r-form-email form-control" id="r-form-email">
+	                        </div>
+				            <button type="submit" class="btn">creer</button>
+						</form>
+                    </div>
+                    
+                </div>
+                
+                <div class="row login-form">
+                    <div class="col-sm-4 col-sm-offset-1">
+						<form role="form" action="confirm2" method="post" class="l-form">
+	                    	<div class="form-group">
+	                    		<label class="sr-only" for="l-form-username">pseudonyme</label>
+	                        	<input type="text" name="con-pseudo" placeholder="pseudonyme..." class="l-form-username form-control" id="l-form-username">
+	                        </div>
+	                        <div class="form-group">
+	                        	<label class="sr-only" for="l-form-password">mot de passe</label>
+	                        	<input type="password" name="con-pass" placeholder="mot de passe..." class="l-form-password form-control" id="l-form-password">
+	                        </div>
+				            <button type="submit" class="btn">se connecter!</button>
+				    	</form>
+				    	<div class="social-login">
+                        	<p>ou se connecter via:</p>
+                        	<div class="social-login-buttons">
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-facebook"></i></a>
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-twitter"></i></a>
+	                        	<a class="btn btn-link-1" href="#"><i class="fa fa-google-plus"></i></a>
+                        	</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                    
+        	</div>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+        	<div class="container">
+        		<div class="row">
+        			
+        			<div class="col-sm-8 col-sm-offset-2">
+        				<div class="footer-border"></div>
+        				<p>contacter  <a href="https://www.github.com/toutpuissantged/" target="_blank">toutpuissantged</a>.</p>
+        			</div>
+        			
+        		</div>
+        	</div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="static/l&g/js/jquery-1.11.1.min.js"></script>
+        <script src="static/bootstrap/js/bootstrap.min.js"></script>
+        <script src="static/l&g/js/jquery.backstretch.min.js"></script>
+        <script src="static/l&g/js/scripts.js"></script>
+
+    </body>
+
+</html>

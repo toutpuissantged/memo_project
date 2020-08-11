@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>accueil</title>
+    </head>
+    <body>
+        <h1>bienvenue sur la page d'aceuille </h1>
+        <h3> il est {{ t }}  </h3>
+        {% set name = "gedeon "%}
+        <p>{{ name }}</p>
+        {% set list =['xbox','playstation','pc']%}
+        {% for mot in list%}
+        <li>{{ mot }}</li>
+        {%endfor%}
+    </body>
+</html>

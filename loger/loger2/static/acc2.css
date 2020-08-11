@@ -1,0 +1,61 @@
+.d1{
+    background-color:rgb(17, 107, 77);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize ;
+}
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#li{
+    background-color: rgba(30, 138, 210, 0.24);
+    font-size: 100%;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    color: floralwhite;
+    min-width: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#formu{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-left: 4%;
+}
+#in{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#foo{
+    background-color: rgba(22, 21, 18, 0.74);
+    color: rgb(230, 224, 220);
+    border-radius: 5px;
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+}
+#ju{
+    color: white;
+    visibility: initial;
+    text-align: center;
+    margin-left: 10%;
+    padding: 10px;
+    font-size: 100%;
+    border-radius: 5px;
+}
